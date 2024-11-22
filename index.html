@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio do Rodrigo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Rodrigo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iot.html">IOT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">
+                            Áreas do Saber
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="ciencias-humanas.html">Ciências Humanas</a></li>
+                            <li><a class="dropdown-item" href="ciencias-natureza.html">Ciências da Natureza</a></li>
+                            <li><a class="dropdown-item" href="linguagens.html">Linguagens</a></li>
+                            <li><a class="dropdown-item" href="matematica.html">Matemática</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5 fade-in">
+        <section class="row align-items-center mb-5 p-4 bg-light rounded shadow">
+            <div class="col-md-6 text-center">
+                <h1 class="display-4 text-primary mb-4"><i class="fas fa-user-circle me-3"></i>Bem-vindo ao Meu Portfólio</h1>
+                <p class="lead">Este site apresenta minha jornada durante o ensino médio, destacando minhas experiências, aprendizados e projetos favoritos em diversas áreas do conhecimento.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="card border-primary">
+                    <img src="imagens/fotominha.jpg" class="card-img-top" alt="Minha foto">
+                    <div class="card-body">
+                        <h2 class="card-title text-primary"><i class="fas fa-info-circle me-2"></i>Sobre Mim</h2>
+                        <p class="card-text">
+                            <strong><i class="fas fa-user me-2"></i>Nome:</strong> Rodrigo Wirthmann Teixeria<br>
+                            <strong><i class="fas fa-heart me-2"></i>Interesses:</strong> Programação, skate, video game, esportes e carros.<br>
+                            <strong><i class="fas fa-share-alt me-2"></i>Redes Sociais:</strong><br>
+                            <a href="https://www.linkedin.com/in/rodrigo-wirthmann-teixeira-b74221263/" class="btn btn-primary btn-sm mt-2"><i class="fab fa-linkedin-in me-2"></i>LinkedIn</a>
+                            <a href="https://www.instagram.com/rodrigowtei/" class="btn btn-danger btn-sm mt-2"><i class="fab fa-instagram me-2"></i>Instagram</a>
+                            <a href="https://github.com/VoxPo" class="btn btn-dark btn-sm mt-2"><i class="fab fa-github me-2"></i>GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5 p-4 bg-light rounded shadow">
+            <h2 class="section-header text-primary"><i class="fas fa-user-graduate me-3"></i>Reflexão sobre o Ensino Médio</h2>
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <p class="lead">Durante o ensino médio eu cresci como pessoa, eu com certeza não sou o mesmo cara que entrou no primeiro ano.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imagens/eu23.jpg" class="img-fluid rounded shadow" alt="Foto do ensino médio">
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5 p-4 bg-light rounded shadow">
+            <h2 class="section-header text-primary"><i class="fas fa-tasks me-3"></i>Tarefas Favoritas e Aprendizados</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100 border-success">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="card-title mb-0"><i class="fas fa-lightbulb me-2"></i>Tarefa 2</h5>
+                        </div>
+                        <img src="/placeholder.svg?height=200&width=300" class="card-img-top" alt="Tarefa 2">
+                        <div class="card-body">
+                            <p class="card-text">[Descrição da tarefa e o que aprendeu]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100 border-info">
+                        <div class="card-header bg-info text-white">
+                            <h5 class="card-title mb-0"><i class="fas fa-puzzle-piece me-2"></i>Tarefa 3</h5>
+                        </div>
+                        <img src="/placeholder.svg?height=200&width=300" class="card-img-top" alt="Tarefa 3">
+                        <div class="card-body">
+                            <p class="card-text">[Descrição da tarefa e o que aprendeu]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
